@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Information</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Sign Up in this Form</h1>
+    <hr>
+
+    <!-- Start of Form -->
+    <form action="abc.html" method="get" style="width: 50%; margin: auto">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="User name" required>
+            <br><br>
+
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter Address" required>
+            <br><br>
+
+            <!-- Favorite Smoke Company -->
+            <label for="favorite_smoke">Enter Your Favorite Smoke Company:</label>
+            <input type="text" id="favorite_smoke" name="favorite_smoke" placeholder="Enter">
+            <br><br>
+
+            <!-- Nationality -->
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality" required>
+                <option value="Bangladeshi">Bangladeshi</option>
+                <option value="India">India</option>
+                <option value="Uganda">Uganda</option>
+            </select>
+            <br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Others"> Others
+            <br><br>
+
+            <!-- Girlfriend Name -->
+            <label for="girlfriend_name">Enter your Girlfriend Name (if any, otherwise write "No"):</label>
+            <input type="text" id="girlfriend_name" name="girlfriend_name" placeholder="Enter Girlfriend's Name">
+            <br><br>
+
+            <!-- Selection -->
+            <label>Must Select One:</label>
+            <select name="relation_status" required>
+                <option value="Antor's Wife">Antor's Wife</option>
+                <option value="Sajol's GF">Sajol's GF</option>
+                <option value="Shouvik's GF">Shouvik's GF</option>
+                <option value="Others">Others</option>
+            </select>
+            <br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+        </fieldset>
+
+        <!-- Contact Information -->
+        <fieldset>
+            <legend>Contact Us</legend>
+
+            <!-- Phone -->
+            <label for="phone_code">Phone:</label>
+            <select name="phone_code" id="phone_code">
+                <option value="+880">+880</option>
+                <option value="+990">+990</option>
+                <option value="+000">+000</option>
+            </select>
+            <input type="number" id="phone" name="phone" placeholder="Enter Phone Number" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        </fieldset>
+
+        <!-- Opinion -->
+        <label for="opinion" style="color: brown;">বিড়ির দাম বাড়াতে আপনার মতামত লিখুনঃ</label>
+        <textarea id="opinion" name="opinion" placeholder="Enter your opinion" cols="40" rows="5"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" style="color: red; background-color: blanchedalmond;">
+    
+    </form>
+</body>
+</html>
